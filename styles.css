@@ -1,0 +1,67 @@
+
+/* Cuerpo de la pagina */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Menú principal de arriba */
+.menu ul {
+    background-color: #3477db;
+}
+
+.menu li {
+    margin: 0;
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 0.9375em 1.25em;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.menu a:hover {
+    background-color: #e74c3c;
+}
+
+/* Título de la página */
+#titulo {
+    text-align: center;
+    margin-top: 3.125em; 
+}
+
+.title {
+    font-size: 2em;
+    color: black;
+}
+
+
+/* Imagen Principal*/
+.foto {
+    display: block;
+    margin: 0 auto;
+    width: 60em;
+    max-width: 100%;
+    height: auto;
+}
+
+.tituloH{
+     transition: 0,5s;
+}
+
+.tituloH :hover{
+    color:  red;
+}
+
+.NombreHoteles{
+    text-decoration: none;
+    color: black;
+}
+
+#listaDeLugares{
+      color: #cc00ff;
+}

@@ -1,0 +1,67 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles (bullets and numbering) */
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Remove default padding */
+blockquote,
+figure,
+p {
+  padding: 0;
+}
+
+/* Remove default vertical spacing (line-height) */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  line-height: 1.5;
+}
+
+/* Reset links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default button styling */
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+/* Remove outline on focused elements */
+:focus {
+  outline: 0;
+}
